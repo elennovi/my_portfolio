@@ -76,6 +76,7 @@
   }
 }
 
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -4046,7 +4047,6 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -11305,8 +11305,8 @@ header.masthead {
   position: relative;
   background-color: #313131;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 header.masthead:before {
   content: "";
@@ -11323,8 +11323,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11381,8 +11381,8 @@ footer.footer {
 }
 
 .btn-color{
-  background-color: #f6d9d5;
-  color:#313131;
+  background-color: #f7d8d8;
+  color: #313131;
 }
 
 .navbar-color{
@@ -11390,9 +11390,29 @@ footer.footer {
 }
 
 .links-color{
-  color:#f7d0cb;
+  color:#f7d8d8;
 }
 
 .title-color{
-  color:#f6d9d5;
+  color:#ea9999;
 }
+
+.icon-big {
+  font-size:4ex;
+}
+
+.my-photo-smaller {
+    width: 30%;
+    height: auto;
+}
+
+.icon-pink-color{
+  color:#f2c0a7;
+}
+
+.icon-orange-color{
+  color:#f7d8d8;
+  margin: 1em;
+}
+
+
