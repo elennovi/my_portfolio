@@ -76,6 +76,21 @@
   }
 }
 
+@font-face { font-family: PaytoneOne-Regular; 
+  src: url('../assets/fonts/PaytoneOne-Regular.ttf'); 
+}
+
+@font-face { font-family: Thasadith-Regular; 
+  src: url('../assets/fonts/Thasadith-Regular.ttf'); 
+}
+
+@font-face { font-family: BerkshireSwash-Regular; 
+  src: url('../assets/fonts/BerkshireSwash-Regular.ttf'); 
+}
+
+@font-face { font-family: MPLUSRounded1c-Regular; 
+  src: url('../assets/fonts/MPLUSRounded1c-Thin.ttf'); 
+}
 
 body {
   margin: 0;
@@ -111,6 +126,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  font-family:PaytoneOne-Regular;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -11305,7 +11321,7 @@ header.masthead {
   position: relative;
   background-color: #313131;
   background-size: cover;
-  background-image: url("../assets/img/Untitled.png");
+  background-image: url("../assets/img/Untitled1.png");
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -11324,8 +11340,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11382,7 +11398,7 @@ footer.footer {
 }
 
 .btn-color{
-  background-color: #f7d8d8;
+  background-color: #a9e4de;
   color: #313131;
 }
 
@@ -11391,11 +11407,12 @@ footer.footer {
 }
 
 .links-color{
-  color:#f7d8d8;
+  color:#a9e4de;
 }
 
 .title-color{
-  color:#ea9999;
+  /*color:#ea9999; COLOR ROSA*/
+  color:#5ebebd;
 }
 
 .icon-big {
@@ -11412,7 +11429,7 @@ footer.footer {
 }
 
 .icon-orange-color{
-  color:#f7d8d8;
+  color:#a9e4de;
 }
 
 .zoom:hover{
