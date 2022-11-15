@@ -11305,6 +11305,7 @@ header.masthead {
   position: relative;
   background-color: #313131;
   background-size: cover;
+  background-image: url("../assets/img/Untitled.png");
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -11316,7 +11317,7 @@ header.masthead:before {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 0;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
