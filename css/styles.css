@@ -92,6 +92,26 @@
   src: url('../assets/fonts/MPLUSRounded1c-Thin.ttf'); 
 }
 
+@font-face { font-family: Heebo-Bold; 
+  src: url('../assets/fonts/Heebo-Bold.ttf'); 
+}
+
+@font-face { font-family: MavenPro-Bold; 
+  src: url('../assets/fonts/MavenPro-Bold.ttf'); 
+}
+
+@font-face { font-family: FiraSansExtraCondensed-SemiBold; 
+  src: url('../assets/fonts/FiraSansExtraCondensed-SemiBold.ttf'); 
+}
+
+@font-face { font-family: CarroisGothic-Regular; 
+  src: url('../assets/fonts/CarroisGothic-Regular.ttf'); 
+}
+
+@font-face { font-family: Rubik-Regular; 
+  src: url('../assets/fonts/Rubik-Regular.ttf'); 
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -126,7 +146,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  font-family:PaytoneOne-Regular;
+  font-family: FiraSansExtraCondensed-SemiBold;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -163,6 +183,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  font-family: CarroisGothic-Regular;
 }
 
 h6, .h6 {
@@ -11400,6 +11421,7 @@ footer.footer {
 .btn-color{
   background-color: #a9e4de;
   color: #313131;
+  font-family: CarroisGothic-Regular;
 }
 
 .navbar-color{
@@ -11408,6 +11430,7 @@ footer.footer {
 
 .links-color{
   color:#a9e4de;
+  font-family: CarroisGothic-Regular;
 }
 
 .title-color{
