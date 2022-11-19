@@ -150,7 +150,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
-  font-family: Montserrat-ExtraBold;
+  font-family: PaytoneOne-Regular;
+  font-weight: 400;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -160,6 +161,8 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  font-family: PaytoneOne-Regular;
+  font-weight: 400;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -281,7 +284,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: white;
+  color: #8984d6;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3994,7 +3997,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: white;
+  color: #9f99f4;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -11331,6 +11334,7 @@ textarea.form-control-lg {
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  background-color: #dbe8f5;
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
@@ -11346,7 +11350,7 @@ header.masthead {
   position: relative;
   background-color: #313131;
   background-size: cover;
-  background-image: url("../assets/img/Untitled1.png");
+  background-image: url("../assets/img/Untitled2.jpg");
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -11375,6 +11379,7 @@ header.masthead h1, header.masthead .h1 {
 
 .showcase .showcase-text {
   padding: 3rem;
+  background-color: #dbe8f5;
 }
 .showcase .showcase-img {
   min-height: 30rem;
@@ -11423,7 +11428,7 @@ footer.footer {
 }
 
 .btn-color{
-  background-color: #a9e4de;
+  background-color: #93bae1;
   color: #313131;
   font-family: CarroisGothic-Regular;
 }
@@ -11439,7 +11444,16 @@ footer.footer {
 
 .title-color{
   /*color:#ea9999; COLOR ROSA*/
-  color:#5ebebd;
+  /*color:#5ebebd; */
+  color: #93bae1;
+}
+
+.subtitle-purple-color{
+  color: #642e7c;
+}
+
+.subtitle-aqua-color{
+  color: #2a7d89;
 }
 
 .icon-big {
@@ -11451,12 +11465,12 @@ footer.footer {
     height: auto;
 }
 
-.icon-pink-color{
-  color:#f2c0a7;
+.icon-purple-color{
+  color:#7251b2;
 }
 
-.icon-orange-color{
-  color:#a9e4de;
+.icon-aqua-color{
+  color:#8ce2ee;
 }
 
 .zoom:hover{
@@ -11478,4 +11492,3 @@ footer.footer {
   align-items: center;
   flex-grow: 1;
 }
-
