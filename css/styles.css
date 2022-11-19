@@ -96,8 +96,8 @@
   src: url('../assets/fonts/Heebo-Bold.ttf'); 
 }
 
-@font-face { font-family: MavenPro-Bold; 
-  src: url('../assets/fonts/MavenPro-Bold.ttf'); 
+@font-face { font-family: MavenPro-Regular; 
+  src: url('../assets/fonts/MavenPro-Regular.ttf'); 
 }
 
 @font-face { font-family: FiraSansExtraCondensed-SemiBold; 
@@ -124,7 +124,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #dbe8f5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -144,7 +144,6 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -190,7 +189,8 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
-  font-family: CarroisGothic-Regular;
+  font-family: MavenPro-Regular;
+  font-weight: 200;
 }
 
 h6, .h6 {
@@ -4129,9 +4129,7 @@ textarea.form-control-lg {
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
+  background-color: #93bae1;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
@@ -4500,11 +4498,11 @@ textarea.form-control-lg {
 .navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9);
 }
-.navbar-light .navbar-toggler {
+.navbar-color .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
   border-color: rgba(0, 0, 0, 0.1);
 }
-.navbar-light .navbar-toggler-icon {
+.navbar-color .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-text {
@@ -11333,7 +11331,7 @@ textarea.form-control-lg {
 }
 .features-icons {
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
   background-color: #dbe8f5;
 }
 .features-icons .features-icons-item {
@@ -11351,7 +11349,7 @@ header.masthead {
   background-color: #313131;
   background-size: cover;
   background-image: url("../assets/img/Untitled2.jpg");
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
 }
 header.masthead:before {
@@ -11384,6 +11382,7 @@ header.masthead h1, header.masthead .h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+  background-color: #dbe8f5;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
@@ -11430,7 +11429,7 @@ footer.footer {
 .btn-color{
   background-color: #93bae1;
   color: #313131;
-  font-family: CarroisGothic-Regular;
+  font-family: MavenPro-Regular;
 }
 
 .navbar-color{
@@ -11439,7 +11438,7 @@ footer.footer {
 
 .links-color{
   color:#a9e4de;
-  font-family: CarroisGothic-Regular;
+  font-family: MavenPro-Regular;
 }
 
 .title-color{
